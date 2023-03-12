@@ -1,3 +1,10 @@
+## How to use:
+- Have Node, and make sure it is on Environment PATH (For Windows, For Mac)
+- Clone repo into a folder
+- Navigate into websitedemo/Home
+- Run "open home.html" in your terminal. You should be able to see our website!
+
+
 ## Inspiration
 Our inspiration for creating Resonate was to make a website where minorities can come together, share their experiences, and build connections. Often, minorities don’t get heard in their daily lives. We noticed that underrepresented individuals sometimes feel like they don't belong, and their voices aren't heard. Therefore, we created Resonate to provide a space where people can find others who share similar interests and goals. We believe it's important to have a platform where everyone feels included and supported.
 
