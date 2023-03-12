@@ -1,6 +1,6 @@
 ## How to use:
-- Have Node, and make sure it is on Environment PATH (For Windows, For Mac)
-- Clone repo into a folder
+- Have Node installed
+- Clone repo into a folder in your local machine
 - Navigate into websitedemo/Home
 - Run "open home.html" in your terminal. You should be able to see our website!
 
@@ -18,5 +18,10 @@ First, we discussed the main features that we wanted to include in our app, and 
 Next, we started constructing the actual website using HTML, CSS, and JavaScript based on the Figma design.
 
 ## Challenges we ran into
- - Becoming familiar with Figma and the flow to see how our prototype would work.
- - Implement most of the design w
+As it was our first time using Figma, becoming familiar with the various functions and how to construct a prototype was quite a challenging but exciting experience. Implementing most of the design with HTML, CSS and JavaScript in a short period was also quite difficult, as we had many pages and functions that we wanted to implement. Dealing with user input and making requests to the API also took quite a lot of time to figure out.
+## Accomplishments that we're proud of
+Having an awesome and aesthetically pleasing prototype was very gratifying, as we were able to implement all the functions that we wanted into the design, as we also had transitions between the pages (e.g. animation when a user first opens the page and while matching). We are also very proud of being able to convert a design (images and text) to an actual website (HTML/CSS/JavaScript).
+## What we learned
+We learned how to use Figma to design and create a prototype for our website, which was a new experience for all of us. We also learned to be flexible and plan efficiently, which was essential for this project as there was much to be done in the short timeframe. We had to search for resources on Google and rapidly learn new technologies. Collaborating on a project in real time also allowed us to enhance our skills in teamwork.
+## What's next for Resonate
+If we are to continue working on Resonate, the next step would be to convert the entire Figma design into HTML/JavaScript/CSS while preserving the most critical functions, such as processing all user input and providing suggested labels. Additionally, we aim to include more tags, particularly those that are manually added frequently, to make the platform more inclusive of diverse individuals and their interests and goals.
