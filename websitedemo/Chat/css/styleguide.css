@@ -1,5 +1,6 @@
 :root { 
   --black: #000000;
+  --black-2: #00000033;
   --white: #ffffff;
  
   --font-size-l: 36px;
@@ -7,12 +8,21 @@
   --font-size-s: 12px;
   --font-size-xl: 40px;
  
+  --font-family-pt_sans_caption: "PT Sans Caption", Helvetica;
   --font-family-skranji: "Skranji", Helvetica;
 }
-.skranji-normal-white-12px {
-  color: var(--white);
+.ptsanscaption-normal-black-20px {
+  color: var(--black-2);
+  font-family: var(--font-family-pt_sans_caption);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.skranji-normal-black-20px {
+  color: var(--black);
   font-family: var(--font-family-skranji);
-  font-size: var(--font-size-s);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }

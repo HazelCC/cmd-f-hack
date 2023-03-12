@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:500,900|Skranji:400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Caption:400|Skranji:400,700|Roboto:400,900");
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
 @import url("https://px.animaapp.com/640c1eff818bee92bc30ef4a.640c1eff818bee92bc30ef4d.Aiil5ia.hcp.png");
 
@@ -25,6 +25,22 @@
 
 input:focus {
   outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
 }
 
 * {

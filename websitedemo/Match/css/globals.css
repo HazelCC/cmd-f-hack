@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:500,900|Skranji:400,700");
+@import url("https://fonts.googleapis.com/css?family=Skranji:400,700|Roboto:400,500,900|PT+Sans+Caption:400");
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
 @import url("https://px.animaapp.com/640c1eff818bee92bc30ef4a.640c1eff818bee92bc30ef4d.Aiil5ia.hcp.png");
 
@@ -21,10 +21,6 @@
 .container-center-horizontal > * {
   flex-shrink: 0;
   pointer-events: auto;
-}
-
-.align-self-flex-end {
-  align-self: flex-end;
 }
 
 * {
