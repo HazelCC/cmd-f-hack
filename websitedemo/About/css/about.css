@@ -2,43 +2,44 @@
 
 .about {
   align-items: flex-start;
-  background-color: #ffffff;
+  background-color: var(--coloursecondarywhite-100-general);
   border: 1px none;
   display: flex;
   height: 832px;
-  width: 1280px;
+  width: 1355px;
 }
 
 .about .overlap-group2 {
   align-items: center;
-  background-color: #c4ebd2;
+  background-color: var(--coloursecondarywhite-100-general);
   display: flex;
   flex-direction: column;
   gap: 46px;
   min-height: 832px;
-  width: 1280px;
+  width: 1355px;
 }
 
 .about .overlap-group3 {
   align-items: flex-start;
   background-color: #ffffff80;
   display: flex;
-  min-width: 1280px;
+  min-width: 1355px;
 }
 
 .about .navigation-bar-about {
   align-items: center;
+  background-color: #76c97e38;
   display: flex;
-  gap: 884px;
+  gap: 936px;
   height: 92px;
   justify-content: flex-end;
-  min-width: 1280px;
-  padding: 0 26.2px;
+  min-width: 1355px;
+  padding: 0 28.0px;
 }
 
 .about .resonate {
   align-self: flex-end;
-  color: #6da078;
+  color: var(--laurel);
   font-family: var(--font-family-skranji);
   font-size: var(--font-size-xl);
   font-weight: 700;
@@ -47,22 +48,22 @@
   margin-bottom: -3.76px;
   min-height: 57px;
   text-align: center;
-  width: 199px;
+  width: 211px;
 }
 
 .about .contact-us {
   align-items: flex-start;
-  background-color: #ffd166;
+  background-color: var(--coloursecondaryyellow500);
   border-radius: 30px;
   display: flex;
   height: 38px;
   margin-top: 6.0px;
-  min-width: 107px;
+  min-width: 113px;
   padding: 9px 0;
 }
 
 .about .button-label {
-  color: #091133;
+  color: var(--colourmainblue900);
   font-family: var(--font-family-skranji);
   font-size: var(--font-size-s);
   font-weight: 400;
@@ -70,7 +71,7 @@
   line-height: 18px;
   text-align: center;
   white-space: nowrap;
-  width: 107px;
+  width: 113px;
 }
 
 .about .content {
@@ -79,60 +80,39 @@
   flex-direction: column;
   gap: -14px;
   margin-left: 4.0px;
-  min-height: 668px;
-  width: 1016px;
+  min-height: 670px;
+  width: 1075px;
 }
 
 .about .title {
-  color: #6da078;
+  color: var(--laurel);
+  cursor: pointer;
   font-family: var(--font-family-skranji);
   font-size: var(--font-size-xxl);
   font-weight: 400;
   letter-spacing: 0;
   line-height: 150px;
-  margin-right: 3.06px;
+  margin-right: 3.0px;
   min-height: 119px;
   text-align: center;
+  transition: all 0.2s ease;
   white-space: nowrap;
-  width: 650px;
+  width: 688px;
+}
+
+.about .title:hover {
+  transform: scale(1.1);
 }
 
 .about .overlap-group1 {
-  height: 532px;
+  height: 534px;
   margin-right: 4.0px;
   position: relative;
-  width: 1012px;
-}
-
-.about .overlap-group {
-  align-items: flex-start;
-  background-image: url(../img/background.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 75px;
-  justify-content: flex-end;
-  left: 359px;
-  min-width: 294px;
-  padding: 17px 0;
-  position: absolute;
-  top: 457px;
-}
-
-.about .start-resonating {
-  color: #94c4a1;
-  font-family: var(--font-family-roboto);
-  font-size: var(--font-size-l);
-  font-weight: 900;
-  letter-spacing: 0;
-  line-height: 38px;
-  min-height: 40px;
-  text-align: center;
-  white-space: nowrap;
-  width: 294px;
+  width: 1071px;
 }
 
 .about .description {
-  color: #ffffff;
+  color: var(--laurel);
   font-family: var(--font-family-roboto);
   font-size: var(--font-size-m);
   font-weight: 400;
@@ -142,5 +122,44 @@
   position: absolute;
   text-align: center;
   top: 0;
-  width: 1012px;
+  width: 1071px;
+}
+
+.about .start-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 75px;
+  left: 450px;
+  min-width: 174px;
+  position: absolute;
+  top: 459px;
+  transition: all 0.2s ease;
+}
+
+.about .start-button:hover {
+  transform: scale(1.1);
+}
+
+.about .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/background-16.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 75px;
+  min-width: 172px;
+  padding: 17px 0;
+}
+
+.about .place {
+  color: var(--colourmainblue800);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 38px;
+  min-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  width: 172px;
 }

@@ -1,5 +1,10 @@
 :root { 
-  --black: #000000;
+  --colourmainblue800: #111b47;
+  --colourmainblue900: #091133;
+  --coloursecondarywhite-100-general: #ffffff;
+  --coloursecondaryyellow500: #ffd166;
+  --iconblack: #000000;
+  --laurel: #6da078;
  
   --font-size-l: 32px;
   --font-size-m: 24px;
