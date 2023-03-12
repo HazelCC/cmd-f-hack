@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/match.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="match" />
+    <div class="container-center-horizontal">
+      <form class="match screen" name="form4" action="form4" method="post">
+        <div class="overlap-group3">
+          <div class="background">
+            <div class="inner-background"></div>
+          </div>
+          <div class="text-block-section-l">
+            <h1 class="title">Here is your match!</h1>
+            <div class="body-2"></div>
+          </div>
+          <div class="text-block-section-l-1"><div class="body-1 body-2"></div></div>
+          <img class="rectangle-1 rectangle" src="img/rectangle-1.svg" alt="Rectangle 1" />
+          <img class="rectangle-13 rectangle" src="img/rectangle-13.svg" alt="Rectangle 13" />
+          <p class="today-i-want-to-cram">
+            Today I want to cram for upcoming CPSC 213 quiz in the library and grab a lunch.
+          </p>
+          <p class="i-need-to-revise-my">
+            I need to revise my essay for English class during the weekend. Do you want to go to a cafe on campus and
+            work there together? Also I plan to go to the gym in the afternoon.
+          </p>
+          <div class="overlap-group"><div class="r-prompt">YOUR PROMPT:</div></div>
+          <div class="overlap-group1"><div class="r-prompt">HER PROMPT:</div></div>
+          <a href="javascript:SubmitForm('form4')">
+            <div class="group-11">
+              <div class="overlap-group2"><div class="start-chatting">Start Chatting</div></div>
+            </div></a
+          >
+          <div class="eat-out-1 eat-out-3"><div class="eat-out skranji-normal-white-18px">Eat Out</div></div>
+          <div class="study-buddy"><div class="x-buddy skranji-normal-white-18px">Study Buddy</div></div>
+          <div class="gym-buddy"><div class="x-buddy skranji-normal-white-18px">Gym Buddy</div></div>
+          <div class="eat-out-2 eat-out-3"><div class="eat-out skranji-normal-white-18px">Eat Out</div></div>
+          <div class="study-buddy-1"><div class="x-buddy skranji-normal-white-18px">Study Buddy</div></div>
+          <div class="navigation-bar">
+            <a href="javascript:SubmitForm('form4')" class="align-self-flex-end"
+              ><div class="resonate">RESONATE</div> </a
+            ><a href="javascript:SubmitForm('form4')">
+              <div class="chat-with-buddy">
+                <div class="chat-with-buddy-1 skranji-normal-white-12px">Chat with your buddy</div>
+              </div></a
+            ><a href="javascript:SubmitForm('form4')">
+              <div class="log-in-sign-up">
+                <p class="button-label skranji-normal-white-12px">Log In / Sign up</p>
+              </div></a
+            >
+            <div class="contact-us"><div class="button-label-1">Contact Us</div></div>
+            <div class="button-about">
+              <div class="overlap-group-1">
+                <div class="bg"></div>
+                <div class="about skranji-normal-white-12px">About</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

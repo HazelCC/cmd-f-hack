@@ -1,0 +1,29 @@
+:root { 
+  --black: #000000;
+  --mountain-mist: #979797;
+  --white: #ffffff;
+ 
+  --font-size-l: 36px;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xl: 48px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-skia-black: "Skia-Black", Helvetica;
+  --font-family-skranji: "Skranji", Helvetica;
+}
+.roboto-medium-mountain-mist-18px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.roboto-black-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 900;
+}

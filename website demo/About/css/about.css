@@ -1,0 +1,146 @@
+/* screen - about */
+
+.about {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px none;
+  display: flex;
+  height: 832px;
+  width: 1280px;
+}
+
+.about .overlap-group2 {
+  align-items: center;
+  background-color: #c4ebd2;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  min-height: 832px;
+  width: 1280px;
+}
+
+.about .overlap-group3 {
+  align-items: flex-start;
+  background-color: #ffffff80;
+  display: flex;
+  min-width: 1280px;
+}
+
+.about .navigation-bar-about {
+  align-items: center;
+  display: flex;
+  gap: 884px;
+  height: 92px;
+  justify-content: flex-end;
+  min-width: 1280px;
+  padding: 0 26.2px;
+}
+
+.about .resonate {
+  align-self: flex-end;
+  color: #6da078;
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: -3.76px;
+  min-height: 57px;
+  text-align: center;
+  width: 199px;
+}
+
+.about .contact-us {
+  align-items: flex-start;
+  background-color: #ffd166;
+  border-radius: 30px;
+  display: flex;
+  height: 38px;
+  margin-top: 6.0px;
+  min-width: 107px;
+  padding: 9px 0;
+}
+
+.about .button-label {
+  color: #091133;
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  width: 107px;
+}
+
+.about .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: -14px;
+  margin-left: 4.0px;
+  min-height: 668px;
+  width: 1016px;
+}
+
+.about .title {
+  color: #6da078;
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150px;
+  margin-right: 3.06px;
+  min-height: 119px;
+  text-align: center;
+  white-space: nowrap;
+  width: 650px;
+}
+
+.about .overlap-group1 {
+  height: 532px;
+  margin-right: 4.0px;
+  position: relative;
+  width: 1012px;
+}
+
+.about .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/background.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 75px;
+  justify-content: flex-end;
+  left: 359px;
+  min-width: 294px;
+  padding: 17px 0;
+  position: absolute;
+  top: 457px;
+}
+
+.about .start-resonating {
+  color: #94c4a1;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 38px;
+  min-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  width: 294px;
+}
+
+.about .description {
+  color: #ffffff;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1012px;
+}

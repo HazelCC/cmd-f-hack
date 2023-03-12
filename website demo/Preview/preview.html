@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/preview.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="preview" />
+    <div class="container-center-horizontal">
+      <form class="preview screen" name="form2" action="form2" method="post">
+        <div class="overlap-group3">
+          <div class="overlap-group2">
+            <div class="background-1">
+              <div class="inner-background"></div>
+            </div>
+            <div class="text-block-section-l"><div class="body"></div></div>
+            <div class="description-preview">
+              <div class="title title-2">Description Preview</div>
+              <img class="background-2" src="img/background.svg" alt="Background" />
+            </div>
+            <div class="study-buddy"><div class="x-buddy skranji-normal-white-18px">Study Buddy</div></div>
+            <div class="eat-out-1 eat-out-3"><div class="eat-out skranji-normal-white-18px">Eat Out</div></div>
+            <div class="start-button">
+              <div class="group-22">
+                <div class="overlap-group">
+                  <img class="background" src="img/background-1.svg" alt="Background" />
+                  <h1 class="title-1 title-2">Edit!</h1>
+                </div>
+              </div>
+              <a href="javascript:SubmitForm('form2')">
+                <div class="group-21">
+                  <div class="overlap-group">
+                    <img class="background" src="img/background-1.svg" alt="Background" />
+                    <div class="match">Match!</div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="group-27">
+              <div class="study-buddy-1"><div class="x-buddy skranji-normal-white-18px">Study Buddy</div></div>
+              <div class="eat-out-2 eat-out-3"><div class="eat-out skranji-normal-white-18px">Eat Out</div></div>
+              <div class="gym-buddy"><div class="x-buddy skranji-normal-white-18px">Gym Buddy</div></div>
+              <div class="career-advising">
+                <div class="career-advising-1 skranji-normal-white-18px">Career Advising</div>
+              </div>
+              <div class="talk"><div class="talk-1 skranji-normal-white-18px">Talk</div></div>
+            </div>
+            <div class="looking-for-mentor">
+              <div class="looking-for-ment skranji-normal-white-18px">Looking for Mentor</div>
+            </div>
+            <div class="looking-for-mentee">
+              <div class="looking-for-ment skranji-normal-white-18px">Looking for Mentee</div>
+            </div>
+            <div class="looking-for-mentee-1"><div class="looking-for-mentee-2">+</div></div>
+            <a href="javascript:SubmitForm('form2')">
+              <div class="navigation-bar">
+                <div class="resonate">RESONATE</div>
+                <div class="chat-with-buddy">
+                  <div class="chat-with-buddy-1 skranji-normal-white-12px">Chat with your buddy</div>
+                </div>
+                <div class="log-in-sign-up"><p class="button-label skranji-normal-white-12px">Log In / Sign up</p></div>
+                <div class="contact-us"><div class="button-label-1">Contact Us</div></div>
+                <div class="button-about">
+                  <div class="overlap-group-1">
+                    <div class="bg"></div>
+                    <div class="about skranji-normal-white-12px">About</div>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <textarea
+            class="today-i-want-to-cram"
+            name="todayiwanttocramforupcomingcpsc213quizinthelibraryandgrabalunch"
+            placeholder="Today I want to cram for upcoming CPSC 213 quiz in the library and grab a lunch..."
+            type="text"
+          ></textarea>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

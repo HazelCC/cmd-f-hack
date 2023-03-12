@@ -1,0 +1,250 @@
+/* screen - log-in */
+
+.log-in {
+  align-items: flex-start;
+  background-color: #c4ebd2;
+  border: 1px none;
+  display: flex;
+  gap: 128px;
+  height: 832px;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.log-in .overlap-group3 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 832px;
+  padding: 47px 10px;
+  width: 655px;
+}
+
+.log-in .resonate {
+  align-self: flex-start;
+  color: #090000;
+  cursor: pointer;
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 36px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 211px;
+}
+
+.log-in .resonate:hover {
+  transform: scale(1.1);
+}
+
+.log-in .title {
+  color: #454e54;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-right: 41.0px;
+  margin-top: 134px;
+  min-height: 104px;
+  width: 384px;
+}
+
+.log-in .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/group-15@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-left: 83.0px;
+  margin-top: 63px;
+  min-height: 172px;
+  padding: 20px 28px;
+  width: 438px;
+}
+
+.log-in .email {
+  background-color: transparent;
+  border: 0;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding: 0;
+  white-space: nowrap;
+  width: 380px;
+}
+
+.log-in .email::placeholder {
+  color: #97979799;
+}
+
+.log-in .password {
+  background-color: transparent;
+  border: 0;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding: 0;
+  white-space: nowrap;
+  width: 380px;
+}
+
+.log-in .password::placeholder {
+  color: #97979799;
+}
+
+.log-in .overlap-group4 {
+  height: 63px;
+  margin-left: 72.0px;
+  margin-top: 28px;
+  position: relative;
+  width: 135px;
+}
+
+.log-in .rectangle-5 {
+  cursor: pointer;
+  height: 63px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 135px;
+}
+
+.log-in .rectangle-5:hover {
+  transform: scale(1.1);
+}
+
+.log-in .sign-in {
+  color: var(--white);
+  left: 37px;
+  position: absolute;
+  top: 11px;
+  width: 91px;
+}
+
+.log-in .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 97px;
+  min-height: 549px;
+  width: 536px;
+}
+
+.log-in .sign-up-and-connect {
+  align-self: flex-end;
+  color: var(--white);
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 76px;
+  width: 284px;
+}
+
+.log-in .new-to-resonate {
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-left: 5px;
+  margin-top: 44px;
+  min-height: 104px;
+  width: 430px;
+}
+
+.log-in .span1 {
+  color: var(--white);
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+}
+
+.log-in .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(../img/group-15-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-top: 47px;
+  min-height: 172px;
+  padding: 20px 28px;
+  width: 438px;
+}
+
+.log-in .email-1 {
+  background-color: transparent;
+  border: 0;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding: 0;
+  white-space: nowrap;
+  width: 380px;
+}
+
+.log-in .email-1::placeholder {
+  color: #97979799;
+}
+
+.log-in .password-1 {
+  background-color: transparent;
+  border: 0;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding: 0;
+  white-space: nowrap;
+  width: 380px;
+}
+
+.log-in .password-1::placeholder {
+  color: #97979799;
+}
+
+.log-in .group-19 {
+  align-items: flex-start;
+  align-self: center;
+  cursor: pointer;
+  display: flex;
+  margin-right: 145.0px;
+  margin-top: 43px;
+  min-width: 137px;
+  transition: all 0.2s ease;
+}
+
+.log-in .group-19:hover {
+  transform: scale(1.1);
+}
+
+.log-in .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-7.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 63px;
+  justify-content: flex-end;
+  min-width: 135px;
+  padding: 12px 14px;
+}
+
+.log-in .sign-up {
+  color: #94c4a1;
+  left: 37px;
+  top: 11px;
+  width: 91px;
+}
+
+.log-in .sign {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 38px;
+  white-space: nowrap;
+}

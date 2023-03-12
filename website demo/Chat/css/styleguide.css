@@ -1,0 +1,18 @@
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+ 
+  --font-size-l: 36px;
+  --font-size-m: 20px;
+  --font-size-s: 12px;
+  --font-size-xl: 40px;
+ 
+  --font-family-skranji: "Skranji", Helvetica;
+}
+.skranji-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}

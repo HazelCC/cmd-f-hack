@@ -1,0 +1,12 @@
+:root { 
+  --black: #000000;
+ 
+  --font-size-l: 32px;
+  --font-size-m: 24px;
+  --font-size-s: 12px;
+  --font-size-xl: 36px;
+  --font-size-xxl: 96px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-skranji: "Skranji", Helvetica;
+}

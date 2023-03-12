@@ -1,0 +1,30 @@
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 16px;
+  --font-size-xl: 30px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 36px;
+  --font-size-xxxl: 40px;
+ 
+  --font-family-roboto-regular: "Roboto-Regular", Helvetica;
+  --font-family-skranji: "Skranji", Helvetica;
+}
+.skranji-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.skranji-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-skranji);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
